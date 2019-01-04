@@ -15,7 +15,7 @@ import sys
 def gen_sort_key( mid ):
     def sort_key(data):
         Ax, Ay, Bx, By = data
-        return abs(Ax-mid) + abs(Ax-mid)
+        return abs(Ax-mid) + abs(Bx-mid)
     return sort_key
 
 
