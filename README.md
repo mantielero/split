@@ -12,7 +12,7 @@ It will create files like `img-000_0.png` and `img-000_1.png`.
 > `-l`: executing every single line from `find` as a new command
 > `-I %`: it will use `%` for the representation of the parameter coming from `find`
 
-## Deskweing a single page
+## Deskewing a single page
 We will do something like:
 ```bash
 find ./ -name "img-???_?.png" -print | xargs -t -l ./deskew.py
